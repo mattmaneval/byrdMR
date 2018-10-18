@@ -1,0 +1,152 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+    font-family: 'archivobold';
+    src: url('assets/fonts/archivo-bold-webfont.woff2') format('woff2'),
+         url('assets/fonts/archivo-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'archivobold_italic';
+    src: url('assets/fonts/archivo-bolditalic-webfont.woff2') format('woff2'),
+         url('assets/fonts/archivo-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'archivoitalic';
+    src: url('assets/fonts/archivo-italic-webfont.woff2') format('woff2'),
+         url('assets/fonts/archivo-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'archivomedium';
+    src: url('assets/fonts/archivo-medium-webfont.woff2') format('woff2'),
+         url('assets/fonts/archivo-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'archivomedium_italic';
+    src: url('assets/fonts/archivo-mediumitalic-webfont.woff2') format('woff2'),
+         url('assets/fonts/archivo-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'archivoregular';
+    src: url('assets/fonts/archivo-regular-webfont.woff2') format('woff2'),
+         url('assets/fonts/archivo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'archivosemibold';
+    src: url('assets/fonts/archivo-semibold-webfont.woff2') format('woff2'),
+         url('assets/fonts/archivo-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'archivosemibold_italic';
+    src: url('assets/fonts/archivo-semibolditalic-webfont.woff2') format('woff2'),
+         url('assets/fonts/archivo-semibolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.App {
+  background-color: #F4F1ED;
+  font-size: 16px;
+  height: 800px;
+}
+.header {
+  width: 100%;
+  text-align: center;
+  ul {
+    display: inline-flex;
+    list-style-type: none;
+    width: 7%;
+    margin-top: 3.938em;
+    margin-left: 8.125em;
+    margin-right: 8.031em;
+    li a {
+      font-family: archivomedium;
+      font-size: 0.875em;
+      color: #31211B;
+      letter-spacing: 1px;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      margin-right: 2.875em;
+    }
+  }
+}
+.left-links {
+  float: left;
+  display: flex;
+  justify-content: space-around;
+
+}
+.right-links {
+  float: right;
+  display: flex;
+  justify-content: space-around;
+
+}
+.logo img {
+  width: 13.5em;
+  height: 2.007em;
+  margin-top: 3.938em;
+}
+/*End Header*/
