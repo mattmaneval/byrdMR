@@ -1,3 +1,4 @@
+/*CSS Reset*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -40,6 +41,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*Fonts*/
+ $bold: 'archivobold';
+ $medium: 'archivomedium';
 
 @font-face {
     font-family: 'archivobold';
@@ -105,11 +109,14 @@ table {
     font-style: normal;
 
 }
+/*End Fonts--Begin App.js*/
 .App {
   background-color: #F4F1ED;
   font-size: 16px;
-  height: 800px;
+  height: 805px;
 }
+/*End App.js--Begin Header.js*/
+
 .header {
   width: 100%;
   text-align: center;
@@ -121,10 +128,11 @@ table {
     margin-left: 8.125em;
     margin-right: 8.031em;
     li a {
-      font-family: archivomedium;
+			padding: 20px;
+      font-family: $medium;
       font-size: 0.875em;
       color: #31211B;
-      letter-spacing: 1px;
+      letter-spacing: 0.063em;
       text-align: center;
       text-decoration: none;
       text-transform: uppercase;
@@ -149,4 +157,35 @@ table {
   height: 2.007em;
   margin-top: 3.938em;
 }
-/*End Header*/
+/*End Header--Begin DroneBanner.js*/
+.drone {
+	text-align: center;
+	margin-top: 4.118em;
+	.drone-image {
+		height: 22.125em;
+		width: 26.813em;
+	}
+	h1 {
+		margin-top: -35px;
+		text-transform: uppercase;
+		font-family: $bold;
+		font-size: 14.688em;
+		color: #FFFFFF;
+		letter-spacing: 18.8px;
+	}
+	h5 {
+		text-transform: uppercase;
+		opacity: 0.23;
+		font-family: $medium;
+		font-size: 1.125em;
+		color: #31211B;
+		letter-spacing: 0.081em;
+	}
+	h6 {
+		opacity: 0.23;
+		font-family: $medium;
+		font-size: 0.875;
+		color: #31211B;
+		letter-spacing: 0.063em;
+	}
+}
