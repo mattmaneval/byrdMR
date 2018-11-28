@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import './App.scss';
+import './sass/index.scss';
 import Header from './components/Header';
 import DroneBanner from './components/DroneBanner';
+
 
 class App extends Component {
   render() {
